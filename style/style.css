@@ -4,16 +4,28 @@ body {
     color: aqua;
 }
 #header {
-    width: 60%;
+    position: relative;
+    margin: 10%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: auto;
     padding: 1em;
-    text-align: left;
+    text-align: center;
     border: 1px solid crimson;
+    background-color: rgba(35, 108, 218, 0.726);
 }
 #header a{
     font-size: 20px;
+    text-decoration: none;
+    color: blueviolet;
+}
+#header a:hover{
+    font-size: 25px;
+    text-decoration: wavy;
+    color: darkmagenta;
 }
 #container {
-    background-color: beige 60%;
+    background-color: rgba(51, 170, 51, .8);
     position: relative;
     border: 1px solid violet;
 }
