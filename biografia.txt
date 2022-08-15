@@ -1,5 +1,7 @@
-Biografia de una persona que soy yo, me llamo Cristhian Vargas
+Biografia de mi persona, me llamo Cristhian Vargas,
 
 tengo 21 años y estoy haciendo un curso para aprender sobre Git
 
 fin de la biografia.
+
+comienzo de una nueva biografia de alguien mas.
