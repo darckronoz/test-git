@@ -174,3 +174,22 @@ git push origin :refs/tags/<tag>
 
 y de esta manera se elimina el tag
 
+branch's on github!!
+
+con gitk tengo una vista mas grafica en un software de git
+de mis branch's y tags
+
+para enviar nuevas branch creadas en local simplemente 
+hago un push de esa nueva rama y listo
+
+en este caso 
+
+git branch footer
+git pull origin main         ->  siempre obtengo los cambios
+mas recientes antes de hacer un push
+
+git push origin footer
+
+y listo.
+
+
