@@ -1,31 +1,58 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 87px;
+    background-color: #B9E2F1;
+    padding: 7px;
+    align-items: center;
+    box-shadow: 1px 15px 15px rgb(23, 46, 44);
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    border-bottom: solid  rgba(51, 170, 51, 0);
+}
+a {
+    text-decoration: none;
+}
+.logo img{
+    height: 80px;
+    margin-left: 25%;
+}
+.twitch {
+    margin-right: 45%;
+}
+.twitch a {
+    color: rgb(144, 27, 221);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+.twitch a:hover{
+    color: rgb(127, 22, 197);;
+    border-bottom: 1px;
+    text-shadow: 2px -2px #0e2642;
+    margin-right: 3px;
+}
 body {
     text-align: center;
-    font-family: "comic-sans";
-    color: aqua;
-}
-#header {
-    position: relative;
-    margin: 10%;
-    margin-top: 1%;
-    margin-bottom: 1%;
-    width: auto;
-    padding: 1em;
-    text-align: center;
-    border: 1px solid crimson;
-    background-color: rgba(35, 108, 218, 0.726);
-}
-#header a{
-    font-size: 20px;
-    text-decoration: none;
-    color: blueviolet;
-}
-#header a:hover{
-    font-size: 25px;
-    text-decoration: wavy;
-    color: darkmagenta;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(1, 14, 14);
+    margin: 0;
+    background-color:  #B9E2F1;
 }
 #container {
+    padding: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     background-color: rgba(51, 170, 51, .8);
     position: relative;
-    border: 1px solid violet;
+    border: solid  rgba(51, 170, 51, 0) ;
+    border-top: 0;
+    box-shadow: inset 0px 0px 20px 0px rgb(23, 46, 44);
+    margin-left: 1%;
+    margin-right: 1%;
+}
+#container p{
+    text-align: justify;
+    font-family: monospace;
+    font-size: 20px;
 }
