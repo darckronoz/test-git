@@ -18,3 +18,10 @@ y posteriormente agrego la llave ssh al sistema
 ssh-add ~/.ssh/id_rsa
 
 y listo, ahora necesito darle mi llave publica a github. 
+
+luego de haber agregado mi public key en github necesito cambiar la manera en la
+que me conecto de https a ssh
+
+git set-url origin <ssh url obtained frmo github>
+
+luego ya estoy listo para realizar pull y push :)
