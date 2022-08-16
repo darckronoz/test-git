@@ -1,0 +1,20 @@
+SSH 
+
+para la conexión por medio de SSH con llave publica y provada con git primero necesito
+crear mis llaves en local
+para esto se utiliza el siguiente comando 
+
+ssh-keygen -t rsa -b 4096 -C "correo"
+
+este correo al que estará linkeada mi llave debe ser el mismo correo 
+de mi github
+
+con las llaves creadas verifico que el proceso ssh este corriendo en local
+
+eval $(ssh-agent -s)
+
+y posteriormente agrego la llave ssh al sistema
+
+ssh-add ~/.ssh/id_rsa
+
+y listo, ahora necesito darle mi llave publica a github. 
