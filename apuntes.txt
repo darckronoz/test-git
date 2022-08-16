@@ -134,3 +134,43 @@ con este acepté el historial de archivos inexistentes en mi repo local osea el 
 y listo. A continuación realicé algunas pruebas haciendo commits en local y push y posteriormente
 haciendo commits en el repo remoto y pull.
 
+*SEE SSH file*
+
+Se creó un alias para el comando 
+git log --all --graph --decorate --oneline
+lo llamamos gittree
+
+alias gittree="git log --all --graph --decorate --oneline"
+
+
+
+posteriormente con estas versiones de los log se creó le 
+primer tag "tag v0.1"
+ mediante el comando 
+
+git tag -a v0.1 -m "message" <reference to log>
+
+luego para verlo podemos usar git show-ref --tag
+
+a continuación para enviar esta información al repo 
+remoto se utiliza 
+
+git push origin --tags
+
+y asi queda en el repositorio remoto.
+
+Para eliminar un tag:
+
+git tag -d <tag>
+
+esto lo elimina localmente y los cambios no se veran 
+reflejados en remoto aunque hagamos un 
+git push origin --tags
+
+por lo que si se requiere eliminiar un tag del remoto
+tambien podemos utilizar
+
+git push origin :refs/tags/<tag>
+
+y de esta manera se elimina el tag
+
