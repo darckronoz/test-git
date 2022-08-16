@@ -1,3 +1,7 @@
+html {
+    box-shadow: inset 0px 0px 30px 1px rgb(87, 172, 165);
+    height: 100%;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -38,6 +42,7 @@ body {
     color: rgb(1, 14, 14);
     margin: 0;
     background-color:  #B9E2F1;
+    
 }
 #container {
     padding: 10%;
