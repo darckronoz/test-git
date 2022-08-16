@@ -1,0 +1,110 @@
+Apuntes primera clase
+
+Para hacer el git init debemos estar la carpeta principal, para un sitio web, la carpeta donde se encuentra
+ el index.html por ejemplo, o en el desarrollo de una aplicación donde esta la carpeta principal de archivos.
+principalmente estamos en nuestro directorio
+
+los cambios antes del commit estan en staging que esta en la RAM
+
+luego de hacer el commit se va al .git al repositorio, master
+
+git log para ver el log de cambios
+
+git add para que el archivo vaya al staging y sea trackeado
+
+git commit para que los cambios suban al repositorio
+
+git diff para comparar dos versiones
+
+git show para mostrar el ultimo commit realizado
+
+git rm --cached para deshacer el add.
+
+checkout traes los ultimos cambios que estan en el repositorio pero no en local, tambien puedes traer una
+version especifica o unicamente unos archivos especificos.
+
+Las branch "ramas" consiste en romper en diferentes lineas de tiempo un mismo proyecto (con el fin de que 
+distintas personas trabajen partes diferentes del mismo proyecto - en una pagina web alguien trabaja 
+el footer otra personas el header y alguien el main o contenido central) y en un punto estas lineas de tiempo
+se unen, estas branch
+
+cuando requiro unir dos ramas realizo un merge
+
+git reset  para volver a una versión anterior de manera agresiva
+--hard para que sea volver del todo
+--soft para conservar lo que tengo en el staging
+
+con checkout podemos ver versiones anterioes y si las estamos viendo podemos
+hacer un commit para restaurar de esa manera, y si queremos volver
+a la versión que esta en el repositorio entonces simplemente hacemos un checkout
+de master del archivo en cuestión
+
+
+Diferencias entre git reset and git rm
+
+con rm puedo puedo eliminar archivos locales y en staging pero no borrar el historial de 
+cambios, por lo que puedo volver a versiones anteriores en las que tenia el archivo que 
+fue eliminado
+con rm --cached se elimina el archivo en staging y del repositorio local, pero lo mantiene en
+nuestro disco duro.
+con rm --force se seliminan los archivos del repositorio y del disco duro, pero se puede 
+recuperar con comandos avanzados.
+
+Con reset se vuelve a una versión anterior sin capacidad de volver al futuro.
+no hay vuelta atras.
+
+reset tambien se puede utilizar para sacar un archivo del staging sin que 
+esto genere un cambio en el historial como pasaria con git rm
+entonces sacamos el archivo de staging, realizamos cambios y volvemos a 
+hacer un add para entonecs si hacer el commit.
+
+
+
+Repositorios remotos!!!!!!
+
+en el ciclo de trabajo que ya tengo claro agrego un push al final que es lo que sube mis cambios al 
+repositorio remoto. 
+antes de eso pues es lo mismo que ya conocía, el add, el commit
+y para iniciar con un repositorio remoto en lugar de hacer un init 
+hago un clone
+git clone url
+esto trae el repositorio a mi repo local.
+
+para traer un cambio que alguien realizó en el repo remoto hago un fetch.
+esto lo trae a mi repositorio local pero no a mis archivos del disco duro
+para esto debo unir mi repo local con mi disco duro mediante un merge
+
+pero para no hacer todo este proceso puedo hacer un pull, este pull es la fusión de 
+ambos comandos.
+
+Ramas branch!:!!:!!:uno:
+
+creo una branch con git branch <nombre> y aqui tengo una copia del ultimo commit de
+master y del log de cambios
+
+todo lo que haga aqui debe ser guardado con un commit si en algun momento quiero hacer un 
+checkout a master para que estos cambios no se pierdan.
+
+cuando finalice con mis cambios en este nuevo branch puedo hacer un merge desde la rama master
+siempre se hace desde la rama que quiero mantener, si lo hiciera desde la rama alterna y solo
+tengo dos ramas pues esta rama se convertiría en mi rama principal.
+
+si no se hicieron cambios en las mismas lineas de codigo en diferentes ramas, a la hora de hacer
+el  merge no se presentaran conflictos y todo saldrá bien. si se realizaron cambios a la misma linea o 
+se presenta algun tipo de conflicto se realizará algo respecto
+
+un merge es un commit por lo que debe llevar un mensaje descriptivo. 
+
+MERGE con conflictos:!!!!!!!
+
+aparecen lineas de sintaxis de conflicto en el codigo y tengo dos opciones
+1. solucionar el conflicto eligiendo con que cambios quedarme de cada branch
+2. abortar el merge.
+
+
+
+GIT HUB!:
+
+realicé la creación de un repositorio nuevo en mi perfil de github
+
+
