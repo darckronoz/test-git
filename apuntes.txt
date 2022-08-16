@@ -107,4 +107,31 @@ GIT HUB!:
 
 realicé la creación de un repositorio nuevo en mi perfil de github
 
+a continuación obtuve el url (https method)
+
+y para linkear mi repositorio local al remoto hice lo siguiente
+
+git remote add origin <url obtenido de mi repo en github>
+
+luego realicé el primer push para actualizar el repo remoto
+
+git push origin main
+
+para esto ingresé mis credenciales de github pero en lugar de mi contraseña
+tuve que crear un "PAT" personal acces token, desde github, y con este realizar
+la autenticación.
+
+luego para poder hacer correctamente el push tuve que utilizar:
+
+git config pull.rebase false
+
+luego para evitar conlictos al traer el readme del repo remoto se usó el siguiente comand
+
+git pull origin main --allow-unrelated-histories
+
+con este acepté el historial de archivos inexistentes en mi repo local osea el archivo readme
+
+y listo. A continuación realicé algunas pruebas haciendo commits en local y push y posteriormente
+haciendo commits en el repo remoto y pull.
+
 
