@@ -394,6 +394,40 @@ git commit --amend
 y listo :)
 
 ________________________________________________________ -- ______________________________________
+GREP - buscar o contar o asi -
 
+con git grep -c <palabra>
+podemos ver cuantas veces utilizamos esa palabra y donde
+
+y con git grep -n <palabra>
+podemos ver la palabra y la linea donde aparece.
+
+y para buscar en los commits podemos utilizar 
+
+git log -S "lo que vmaos a buscar"
+
+la S es mayuscula xd
+
+_________________________***__________________+_+_+_+___________________***__________________________
+
+COMANDOS UTILES Y ALIAS
+
+git config --global alias.stats "shortlog -sn --all --no-merges"
+
+---Cuantos commits se han hecho por usuario ------
+
+donde stats es el nombre del alias y dentro de las comillas va a lo que queremos hacer alias
+
+git blame <archivo> -L13,40 -c
+
+para ver quien modificó que por ultima vez. donde 13 y 40 son las lineas que queremos ver del archivo
+
+git branch -r
+
+para ver las ramas remotas
+
+git branch -a 
+
+para ver todas las ramas  TODAS!
 
 
