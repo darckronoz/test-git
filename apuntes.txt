@@ -287,6 +287,26 @@ y para ver que stash tenemos
 
 git stash list
 
+______________________________________________________________________________________
+
+GIT CLEAN!!!!
+
+en caso de crear archivos por error o tener archivos basura el comando git clean nos ayuda a 
+limpiar esto y no tener que hacerlo manualmente
+
+con
+
+git clean --dry-run
+
+obtenemos una lista de que archivos serán eliminados para review 
+
+y con git clean -f
+
+se van a eliminar estos archivos
+
+importante: a git no le interesan los directorios sino unicamente los archivos, asi que
+si tenemos carpetas basura estas deberemos eliminarla manualmente.
+
 
 
 
