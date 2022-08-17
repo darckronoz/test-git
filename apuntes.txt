@@ -337,7 +337,7 @@ plottwist: Cherry pick es una mala practica xd
 -si en algún momento por error todo se rompe o se eliminó un archivo importante y se le hizo commit
 -y ahora todo se fue al  carajo 
 -
--podemos hacer un reset --HARD a una versión anterior
+-podemos hacer un reset --hard a una versión anterior
 -
 -entonces con git reflog obtenemos la lista de logs
 -
