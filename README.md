@@ -14,3 +14,8 @@ this a repository with educational purpouses, I'm creating it while I do the git
 *clothes
 *pants
 *shoes
+
+##LIST-2
+*dog
+*cat
+*bird
