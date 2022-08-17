@@ -11,4 +11,6 @@ this a repository with educational purpouses, I'm creating it while I do the git
 *milk
 *eggs
 *bread
-
+*clothes
+*pants
+*shoes
