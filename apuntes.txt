@@ -193,3 +193,19 @@ git push origin footer
 y listo.
 
 
+Pull request from collaborators!!.
+}
+si necesito realizar un cambio importante en mi proyecto, generalmente crearé una rama
+para no afectar directamente mi rama main y poder trabajar con la ultima versión
+de esta, en esta nueva rama realizaré los cambios para posteriormente 
+solicitar un pull request y que mi equipo de trabajo puedo hacer un review
+antes de aceptar un merge a la rama main
+
+a la hora de realizar este review los colaboradores pueden aprovar el merge y relizarlo,
+o solicitar cambios, o realizar comentarios al pull request.
+
+esto con pull request desde la organización, pero tambien se realizan desde fuera por 
+personas que no son colaboradores, en proyectos de codigo abierto esto es muy importante.
+
+
+
