@@ -236,6 +236,19 @@ en el caso de los archivos binarios como imagenes, pueden ser manejados de maner
 el link o subiendo la imagen en algun servicio para subir imagenes.
 
 
+README.md
+
+los archivos md >markdown< son archivos que aceptan html y tienen otros formatos
+en este tió de archivo se edita wikipedia
+
+para editar este tipo de archivos hay un editor online llamado panda editor md y
+con ayuda de este podemos hacer mas lindo nuestros archivos md.
+
+En el readme.md nosotros mostramos un about de nuestro repo y alguna información
+relevante para el usuario.
+
+
+
 
 
 
