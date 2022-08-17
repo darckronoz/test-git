@@ -208,4 +208,21 @@ esto con pull request desde la organización, pero tambien se realizan desde fue
 personas que no son colaboradores, en proyectos de codigo abierto esto es muy importante.
 
 
+FORK:!:!:!:
+
+un fork es tomar un repo y copiar todo su contenido en un repo en mi propio perfil
+a partir de aqui puedo realizar cambios y clonar este fork a mi maquina local
+este fork no se mantiene actualizado con el repo original a menos que le haga un 
+pull y lo actualice manualmente 
+
+cuando tengo el repo fork en local puedo agragar otro remoto con
+
+git remote add upstream url, donde upstream es el nombre que normalmente se da 
+al repositorio original del cual obtendrás las actualizaciones y el url pues es
+la url del repo original.
+
+desde github tengo la opción de mandar pull request directamente desde mi fork al
+repo original.
+
+
 
