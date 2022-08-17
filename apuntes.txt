@@ -324,3 +324,5 @@ git cherry-pick <id del commit de la otra rama>
 
 hay que tener cuidado con esto ya que esto es como realizar un commit sin confirmación
 entonces el cambio se ve reflejado inmediatamente en la rama desde la que lo hayamos realizado
+
+plottwist: Cherry pick es una mala practica xd
