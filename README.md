@@ -15,13 +15,13 @@ this a repository with educational purpouses, I'm creating it while I do the git
 * pants
 * shoes
 
-##LIST-2
+## LIST-2
 * dog
 * cat
 * elephant
 * bird
 
-##LIST-3
+## LIST-3
 * android
 * ios
 * idkxd
