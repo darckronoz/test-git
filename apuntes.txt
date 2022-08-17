@@ -326,3 +326,25 @@ hay que tener cuidado con esto ya que esto es como realizar un commit sin confir
 entonces el cambio se ve reflejado inmediatamente en la rama desde la que lo hayamos realizado
 
 plottwist: Cherry pick es una mala practica xd
+
+-
+-
+-_________________________________________________________________________________________________
+-
+-RESET!!!!
+-
+-usos practicos para el reset xd
+-si en algún momento por error todo se rompe o se eliminó un archivo importante y se le hizo commit
+-y ahora todo se fue al  carajo 
+-
+-podemos hacer un reset --HARD a una versión anterior
+-
+-entonces con git reflog obtenemos la lista de logs
+-
+-allí buscamos el hash de la versión donde todo estaba bien
+-
+-y utilizamos desde la rama que queremos recuperar
+-
+-git reset --HARD <hash de l a versión>
+-
+-y listo :)
