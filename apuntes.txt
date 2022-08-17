@@ -273,6 +273,21 @@ primero desde la rama de prueba hacer rebase a main y luego
 desde main hacer rebase a la rama de prueba.
 
 
+STASH!!!!!
+
+para realizar pequeños experimentos que no merecen la pena como para abrir un branch
+o para dejar en stand by los cambios realizados antes del commit
+
+nos sirve git stash
+
+para regresar el stash que tenemos en stand by usamos git stash pop
+y para descartar estos cambios tenemos git stash drop
+
+y para ver que stash tenemos 
+
+git stash list
+
+
 
 
 
