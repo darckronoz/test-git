@@ -348,3 +348,24 @@ plottwist: Cherry pick es una mala practica xd
 -git reset --HARD <hash de l a versión>
 -
 -y listo :)
+________________________________________________________________________________________________
+
+COMO REMENDAR UN COMMIT YA ENVIADO":":":":
+
+si quería realizar mas de un cmabio en un commit y se me fue solo la mitad de los cambios
+en el commit entonces puedo hacer lo siguiente
+
+hago el cambio que se me olvidó
+le hago add
+git add .
+
+y a continuación utilizo
+
+git commit --amend
+
+y listo :)
+
+________________________________________________________ -- ______________________________________
+
+
+
