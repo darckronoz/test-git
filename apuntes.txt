@@ -247,7 +247,30 @@ con ayuda de este podemos hacer mas lindo nuestros archivos md.
 En el readme.md nosotros mostramos un about de nuestro repo y alguna información
 relevante para el usuario.
 
-mi mamá es muy linda
+GIT REBASE:!:!:!:!
+
+utilizar para realizar cambios en local ya que esto es una mala practica porque cambia la historia del 
+repo.
+
+si necesitamos realizar cambios en otra rama para arreglar bugs o algo asi podemos crear otra rama
+realizar los cambios
+
+desde la nueva rama hacer
+git rebase main
+para obtener los cambios de main
+
+luego desde main hacer
+git rebase <rama de cambios>
+
+y esto no cambias en la historia y los cambios fueron realizados.
+
+utiliziar en local unicamente }
+
+y recordar el orden
+
+primero desde la rama de prueba hacer rebase a main y luego
+
+desde main hacer rebase a la rama de prueba.
 
 
 
