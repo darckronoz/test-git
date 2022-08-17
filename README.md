@@ -19,3 +19,8 @@ this a repository with educational purpouses, I'm creating it while I do the git
 *dog
 *cat
 *bird
+
+##LIST-3
+*android
+*ios
+*idkxd
