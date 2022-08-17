@@ -287,6 +287,14 @@ y para ver que stash tenemos
 
 git stash list
 
+tambien podemos crear un stash en una rama nueva con 
+
+git stash branch <branch-name>
+
+
+y dentro podemos hacer un commit con estos cambios que queriamos guardar en stash
+
+
 ______________________________________________________________________________________
 
 GIT CLEAN!!!!
@@ -307,7 +315,7 @@ se van a eliminar estos archivos
 importante: a git no le interesan los directorios sino unicamente los archivos, asi que
 si tenemos carpetas basura estas deberemos eliminarla manualmente.
 
+CHERRYPICK:!:!:!:!
 
-
-
-
+cuando avanzamos en una rama alterna y en el main necesitamos uno de los cambios de 
+esta rama alterna pero no toda la rama podemos utilizar esto.
