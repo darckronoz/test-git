@@ -315,7 +315,12 @@ se van a eliminar estos archivos
 importante: a git no le interesan los directorios sino unicamente los archivos, asi que
 si tenemos carpetas basura estas deberemos eliminarla manualmente.
 
-CHERRYPICK:!:!:!:!
+CHERRY-PICK:!:!:!:!
 
 cuando avanzamos en una rama alterna y en el main necesitamos uno de los cambios de 
 esta rama alterna pero no toda la rama podemos utilizar esto.
+
+git cherry-pick <id del commit de la otra rama>
+
+hay que tener cuidado con esto ya que esto es como realizar un commit sin confirmación
+entonces el cambio se ve reflejado inmediatamente en la rama desde la que lo hayamos realizado
