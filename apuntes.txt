@@ -224,5 +224,18 @@ la url del repo original.
 desde github tengo la opción de mandar pull request directamente desde mi fork al
 repo original.
 
+.GITIGNORE
+
+son malas practicas tener archivos binarios en los repositorios, asi como puede ser inseguro 
+tener algunos archivos subidos y disponibles para el publico
+
+para esto existe el archivo gitignore, aqui van los archivos que no queremos subir al repositorio
+como recursos o contraseñas o algunas librerias etc.
+
+en el caso de los archivos binarios como imagenes, pueden ser manejados de manera externa, referenciando directamente
+el link o subiendo la imagen en algun servicio para subir imagenes.
+
+
+
 
 
